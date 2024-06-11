@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    height: 60px;
+    align-items: center;
+    box-shadow: 5px 4px 10px 0px grey;
+}
+
+.icons ol{
+    display: flex;
+    gap:  15px;
+    list-style: none;
+}
+
+.backgroundprofile{
+    background-color: rgb(167 171 174);
+    border: 2px solid rgb(167 171 174);
+    border-radius: 50%;
+    width: 25px;
+    
+}
+
+.backgroundblue{
+    background-color: rgba(48,132,244,255);
+    border: 2px solid rgba(48,132,244,255);
+    border-radius: 50%;
+    
+}
+
+.slider{
+    margin-top: 15px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform:translateX(-195px);
+    /* transform:translateX(-5px); */
+    box-shadow: 5px 4px 10px 0px grey;
+    z-index: 2;
+}
+
+.content{
+    display: flex;
+    margin-top: 25px;
+}
+
+.change{
+    background-color: black;
+    color: white;
+}
+
+.change ol{
+    padding-left: 15px;
+    display:flex ;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.change ol li button {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.control{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.text{
+    font-size:xx-large;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: aqua;
+    border: 3px solid aqua;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+.main{
+    transform: translateX(-25px);
+    width: 1110px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: [fst] 500px [sec] 500px;
+    grid-template-rows: 300px 300px;
+    gap: 5px;
+    width: 1110px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 295px;
+    width: 450px;
+    box-shadow: 5px 4px 10px 0px grey;
+
+}
+
+.book{
+    width: 100px;
+    height: 253px;
+    box-shadow: 5px 4px 10px 0px grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform:translateX(50px);
+}
+
+.book1{
+    color: white;
+    background-color: black;
+    height: 250px;
+    padding: 2px;
+    text-align: center;
+    width: 25px;
+}
+
+.head{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
